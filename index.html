@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTRLX // SYSTEM INITIALIZING</title>
+    <title>CTRLX // SYSTEM READY</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
@@ -14,13 +14,14 @@
         <div class="terminal">
             <div class="terminal-header">
                 <span class="title">CTRLX TERMINAL v2.0.23</span>
-                <span class="blink">_</span>
             </div>
-            <div class="terminal-body" id="terminal">
-                <!-- Content will be added by JavaScript -->
+            <div class="terminal-body">
+                <div class="prompt">
+                    <span class="path">visitor@ctrlx.dev:~$</span>
+                    <span class="cursor blink">_</span>
+                </div>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
